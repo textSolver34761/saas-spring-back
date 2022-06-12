@@ -1,4 +1,4 @@
-package com.test.model;
+package com.test.saas.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,6 +14,6 @@ import lombok.Data;
 public class Welcome {
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;	
+	private long id;	
 	private String Welcome;
 }
