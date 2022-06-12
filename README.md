@@ -22,4 +22,5 @@ In that case, new technology such as Docker could help building the OS. <br />
 [Front of the application](https://github.com/textSolver34761/landing-saas)
 
 # Using PostegreSQL
-https://www.youtube.com/watch?v=uoJjDbL-Y_E
+https://www.youtube.com/watch?v=uoJjDbL-Y_E <br />
+https://dzone.com/articles/bounty-spring-boot-and-postgresql-database
