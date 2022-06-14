@@ -30,7 +30,9 @@ public class WelcomeController {
 	
     @PostMapping("/save-welcome")
     public ResponseEntity<Welcome> saveWelcome(@RequestBody Welcome message) {
-        Welcome save = repository.save(message);
+    	Welcome save = new Welcome();
+    	save.setId(1);
+    	save.setWelcome(message.getWelcome());
         return ResponseEntity.ok(save);
     }
 
